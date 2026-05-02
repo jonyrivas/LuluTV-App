@@ -1,0 +1,1 @@
+import "package:flutter/material.dart"; void main() => runApp(MaterialApp(home: Scaffold(appBar: AppBar(title: Text("Lulu TV - 24hs")), body: Center(child: Text("PIN: 6969")))));
