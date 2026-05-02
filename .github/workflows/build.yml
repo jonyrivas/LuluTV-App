@@ -9,5 +9,5 @@ jobs:
         with:
           channel: stable
       - run: |
-          flutter create --template=app --overwrite .
+          flutter create --overwrite .
           flutter build apk --release
