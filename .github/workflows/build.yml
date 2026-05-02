@@ -9,5 +9,5 @@ jobs:
         with:
           channel: stable
       - run: |
-          flutter create --overwrite .
+          flutter create .
           flutter build apk --release
