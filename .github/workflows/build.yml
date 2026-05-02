@@ -8,4 +8,6 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: stable
-      - run: flutter build apk --release
+      - run: |
+          flutter create . --force
+          flutter build apk --release
